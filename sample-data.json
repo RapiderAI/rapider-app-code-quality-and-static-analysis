@@ -1,0 +1,484 @@
+{
+  "ApmEpic": [
+    {
+      "id": "00000000-0107-0001-0000-000000000001",
+      "projectId": "00000000-0107-0001-0000-000000000001",
+      "title": "Epic #1 — Enterprise Primary Record",
+      "description": "Epic description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0001-0000-000000000002",
+      "projectId": "00000000-0107-0001-0000-000000000002",
+      "title": "Epic #2 — Enterprise Operations Record",
+      "description": "Epic description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0001-0000-000000000003",
+      "projectId": "00000000-0107-0001-0000-000000000003",
+      "title": "Epic #3 — Enterprise Compliance Record",
+      "description": "Epic description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ApmIssue": [
+    {
+      "id": "00000000-0107-0002-0000-000000000001",
+      "projectId": "00000000-0107-0001-0000-000000000001",
+      "epicId": "00000000-0107-0001-0000-000000000001",
+      "sprintId": "00000000-0107-0001-0000-000000000001",
+      "title": "Issue #1 — Enterprise Primary Record",
+      "description": "Issue description configuration (1)",
+      "type": "Issue type configuration (1)",
+      "status": "ACTIVE",
+      "priority": "Issue priority configuration (1)",
+      "storyPoints": 10,
+      "labelIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0107-0001-0000-000000000001",
+      "reporterId": "00000000-0107-0001-0000-000000000001"
+    },
+    {
+      "id": "00000000-0107-0002-0000-000000000002",
+      "projectId": "00000000-0107-0001-0000-000000000002",
+      "epicId": "00000000-0107-0001-0000-000000000002",
+      "sprintId": "00000000-0107-0001-0000-000000000002",
+      "title": "Issue #2 — Enterprise Operations Record",
+      "description": "Issue description configuration (2)",
+      "type": "Issue type configuration (2)",
+      "status": "IN_PROGRESS",
+      "priority": "Issue priority configuration (2)",
+      "storyPoints": 20,
+      "labelIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0107-0001-0000-000000000002",
+      "reporterId": "00000000-0107-0001-0000-000000000002"
+    },
+    {
+      "id": "00000000-0107-0002-0000-000000000003",
+      "projectId": "00000000-0107-0001-0000-000000000003",
+      "epicId": "00000000-0107-0001-0000-000000000003",
+      "sprintId": "00000000-0107-0001-0000-000000000003",
+      "title": "Issue #3 — Enterprise Compliance Record",
+      "description": "Issue description configuration (3)",
+      "type": "Issue type configuration (3)",
+      "status": "COMPLETED",
+      "priority": "Issue priority configuration (3)",
+      "storyPoints": 30,
+      "labelIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0107-0001-0000-000000000003",
+      "reporterId": "00000000-0107-0001-0000-000000000003"
+    }
+  ],
+  "ApmProject": [
+    {
+      "id": "00000000-0107-0003-0000-000000000001",
+      "name": "Project #1 — Enterprise Primary Record",
+      "description": "Project description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0003-0000-000000000002",
+      "name": "Project #2 — Enterprise Operations Record",
+      "description": "Project description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0003-0000-000000000003",
+      "name": "Project #3 — Enterprise Compliance Record",
+      "description": "Project description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevErrorIssue": [
+    {
+      "id": "00000000-0107-0004-0000-000000000001",
+      "shortId": "00000000-0107-0001-0000-000000000001",
+      "serviceId": "00000000-0107-0001-0000-000000000001",
+      "fingerprintHash": "Error Issue fingerprintHash configuration (1)",
+      "exceptionType": "Error Issue exceptionType configuration (1)",
+      "title": "Error Issue #1 — Enterprise Primary Record",
+      "culprit": "Error Issue culprit configuration (1)",
+      "level": "Error Issue level configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0004-0000-000000000002",
+      "shortId": "00000000-0107-0001-0000-000000000002",
+      "serviceId": "00000000-0107-0001-0000-000000000002",
+      "fingerprintHash": "Error Issue fingerprintHash configuration (2)",
+      "exceptionType": "Error Issue exceptionType configuration (2)",
+      "title": "Error Issue #2 — Enterprise Operations Record",
+      "culprit": "Error Issue culprit configuration (2)",
+      "level": "Error Issue level configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0004-0000-000000000003",
+      "shortId": "00000000-0107-0001-0000-000000000003",
+      "serviceId": "00000000-0107-0001-0000-000000000003",
+      "fingerprintHash": "Error Issue fingerprintHash configuration (3)",
+      "exceptionType": "Error Issue exceptionType configuration (3)",
+      "title": "Error Issue #3 — Enterprise Compliance Record",
+      "culprit": "Error Issue culprit configuration (3)",
+      "level": "Error Issue level configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevQualityGate": [
+    {
+      "id": "00000000-0107-0005-0000-000000000001",
+      "name": "Quality Gate #1 — Enterprise Primary Record",
+      "minPassRateThreshold": 85,
+      "maxCriticalWcagCount": 10,
+      "requireVisualBaselineApproval": true,
+      "blockOnNewFlakyTests": true,
+      "requireWaiverApproval": true,
+      "isDefault": true,
+      "version": 1,
+      "isBuiltInCleanCode": true,
+      "minNewCoveragePercent": 10,
+      "maxNewDuplicationPercent": 10,
+      "maxNewBlockerCriticalCount": 10,
+      "minHotspotsReviewedPercent": 10,
+      "enforceAiCodeAssurance": true,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0005-0000-000000000002",
+      "name": "Quality Gate #2 — Enterprise Operations Record",
+      "minPassRateThreshold": 90,
+      "maxCriticalWcagCount": 20,
+      "requireVisualBaselineApproval": true,
+      "blockOnNewFlakyTests": true,
+      "requireWaiverApproval": true,
+      "isDefault": true,
+      "version": 2,
+      "isBuiltInCleanCode": true,
+      "minNewCoveragePercent": 20,
+      "maxNewDuplicationPercent": 20,
+      "maxNewBlockerCriticalCount": 20,
+      "minHotspotsReviewedPercent": 20,
+      "enforceAiCodeAssurance": true,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0005-0000-000000000003",
+      "name": "Quality Gate #3 — Enterprise Compliance Record",
+      "minPassRateThreshold": 95,
+      "maxCriticalWcagCount": 30,
+      "requireVisualBaselineApproval": false,
+      "blockOnNewFlakyTests": false,
+      "requireWaiverApproval": false,
+      "isDefault": false,
+      "version": 3,
+      "isBuiltInCleanCode": false,
+      "minNewCoveragePercent": 30,
+      "maxNewDuplicationPercent": 30,
+      "maxNewBlockerCriticalCount": 30,
+      "minHotspotsReviewedPercent": 30,
+      "enforceAiCodeAssurance": false,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevRepository": [
+    {
+      "id": "00000000-0107-0006-0000-000000000001",
+      "slug": "DR-2026-0001",
+      "name": "Repository #1 — Enterprise Primary Record",
+      "description": "Repository description configuration (1)",
+      "visibility": "Repository visibility configuration (1)",
+      "defaultBranch": "Repository defaultBranch configuration (1)",
+      "isTemplate": true,
+      "templateRepoId": "00000000-0107-0001-0000-000000000001",
+      "allowedMergeStrategies": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "enableMergeQueue": true,
+      "secretPushProtection": true,
+      "mirrorVaultSecretRef": "Repository mirrorVaultSecretRef configuration (1)",
+      "storageUsedMb": 10,
+      "apmProjectId": "00000000-0107-0001-0000-000000000001",
+      "ownerDepartmentId": "00000000-0107-0001-0000-000000000001",
+      "status": "ACTIVE",
+      "version": 1,
+      "gitRepoRef": "Repository gitRepoRef configuration (1)",
+      "newCodeHorizonType": "DR-2026-0001",
+      "repoName": "Repository #1 — Enterprise Primary Record",
+      "providerType": "Repository providerType configuration (1)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0006-0000-000000000002",
+      "slug": "DR-2026-0002",
+      "name": "Repository #2 — Enterprise Operations Record",
+      "description": "Repository description configuration (2)",
+      "visibility": "Repository visibility configuration (2)",
+      "defaultBranch": "Repository defaultBranch configuration (2)",
+      "isTemplate": true,
+      "templateRepoId": "00000000-0107-0001-0000-000000000002",
+      "allowedMergeStrategies": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "enableMergeQueue": true,
+      "secretPushProtection": true,
+      "mirrorVaultSecretRef": "Repository mirrorVaultSecretRef configuration (2)",
+      "storageUsedMb": 20,
+      "apmProjectId": "00000000-0107-0001-0000-000000000002",
+      "ownerDepartmentId": "00000000-0107-0001-0000-000000000002",
+      "status": "IN_PROGRESS",
+      "version": 2,
+      "gitRepoRef": "Repository gitRepoRef configuration (2)",
+      "newCodeHorizonType": "DR-2026-0002",
+      "repoName": "Repository #2 — Enterprise Operations Record",
+      "providerType": "Repository providerType configuration (2)",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0006-0000-000000000003",
+      "slug": "DR-2026-0003",
+      "name": "Repository #3 — Enterprise Compliance Record",
+      "description": "Repository description configuration (3)",
+      "visibility": "Repository visibility configuration (3)",
+      "defaultBranch": "Repository defaultBranch configuration (3)",
+      "isTemplate": false,
+      "templateRepoId": "00000000-0107-0001-0000-000000000003",
+      "allowedMergeStrategies": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "enableMergeQueue": false,
+      "secretPushProtection": false,
+      "mirrorVaultSecretRef": "Repository mirrorVaultSecretRef configuration (3)",
+      "storageUsedMb": 30,
+      "apmProjectId": "00000000-0107-0001-0000-000000000003",
+      "ownerDepartmentId": "00000000-0107-0001-0000-000000000003",
+      "status": "COMPLETED",
+      "version": 3,
+      "gitRepoRef": "Repository gitRepoRef configuration (3)",
+      "newCodeHorizonType": "DR-2026-0003",
+      "repoName": "Repository #3 — Enterprise Compliance Record",
+      "providerType": "Repository providerType configuration (3)",
+      "isDeleted": false
+    }
+  ],
+  "DevTestRun": [
+    {
+      "id": "00000000-0107-0007-0000-000000000001",
+      "runNumber": "DTR-2026-0001",
+      "suiteId": "00000000-0107-0001-0000-000000000001",
+      "matrixId": "00000000-0107-0001-0000-000000000001",
+      "triggerSource": "Test Run triggerSource configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0007-0000-000000000002",
+      "runNumber": "DTR-2026-0002",
+      "suiteId": "00000000-0107-0001-0000-000000000002",
+      "matrixId": "00000000-0107-0001-0000-000000000002",
+      "triggerSource": "Test Run triggerSource configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0007-0000-000000000003",
+      "runNumber": "DTR-2026-0003",
+      "suiteId": "00000000-0107-0001-0000-000000000003",
+      "matrixId": "00000000-0107-0001-0000-000000000003",
+      "triggerSource": "Test Run triggerSource configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevCodeAnalysisRun": [
+    {
+      "id": "00000000-0107-0008-0000-000000000001",
+      "runKey": "DCAR-2026-0001",
+      "repoId": "00000000-0107-0001-0000-000000000001",
+      "scanTargetType": "Code Analysis Run scanTargetType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0008-0000-000000000002",
+      "runKey": "DCAR-2026-0002",
+      "repoId": "00000000-0107-0001-0000-000000000002",
+      "scanTargetType": "Code Analysis Run scanTargetType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0008-0000-000000000003",
+      "runKey": "DCAR-2026-0003",
+      "repoId": "00000000-0107-0001-0000-000000000003",
+      "scanTargetType": "Code Analysis Run scanTargetType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevCodeFinding": [
+    {
+      "id": "00000000-0107-0009-0000-000000000001",
+      "findingKey": "DCF-2026-0001",
+      "repoId": "00000000-0107-0001-0000-000000000001",
+      "firstSeenRunId": "00000000-0107-0001-0000-000000000001",
+      "lastSeenRunId": "00000000-0107-0001-0000-000000000001",
+      "ruleId": "00000000-0107-0001-0000-000000000001",
+      "softwareQuality": "Code Finding softwareQuality configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0009-0000-000000000002",
+      "findingKey": "DCF-2026-0002",
+      "repoId": "00000000-0107-0001-0000-000000000002",
+      "firstSeenRunId": "00000000-0107-0001-0000-000000000002",
+      "lastSeenRunId": "00000000-0107-0001-0000-000000000002",
+      "ruleId": "00000000-0107-0001-0000-000000000002",
+      "softwareQuality": "Code Finding softwareQuality configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0009-0000-000000000003",
+      "findingKey": "DCF-2026-0003",
+      "repoId": "00000000-0107-0001-0000-000000000003",
+      "firstSeenRunId": "00000000-0107-0001-0000-000000000003",
+      "lastSeenRunId": "00000000-0107-0001-0000-000000000003",
+      "ruleId": "00000000-0107-0001-0000-000000000003",
+      "softwareQuality": "Code Finding softwareQuality configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevSecurityHotspot": [
+    {
+      "id": "00000000-0107-0010-0000-000000000001",
+      "repoId": "00000000-0107-0001-0000-000000000001",
+      "ruleCode": "DSH-2026-0001",
+      "riskProbability": "Security Hotspot riskProbability configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0010-0000-000000000002",
+      "repoId": "00000000-0107-0001-0000-000000000002",
+      "ruleCode": "DSH-2026-0002",
+      "riskProbability": "Security Hotspot riskProbability configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0010-0000-000000000003",
+      "repoId": "00000000-0107-0001-0000-000000000003",
+      "ruleCode": "DSH-2026-0003",
+      "riskProbability": "Security Hotspot riskProbability configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevRuleProfile": [
+    {
+      "id": "00000000-0107-0011-0000-000000000001",
+      "name": "Rule Profile #1 — Enterprise Primary Record",
+      "language": "Rule Profile language configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0011-0000-000000000002",
+      "name": "Rule Profile #2 — Enterprise Operations Record",
+      "language": "Rule Profile language configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0011-0000-000000000003",
+      "name": "Rule Profile #3 — Enterprise Compliance Record",
+      "language": "Rule Profile language configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevStaticRule": [
+    {
+      "id": "00000000-0107-0012-0000-000000000001",
+      "ruleCode": "DSR-2026-0001",
+      "title": "Static Rule #1 — Enterprise Primary Record",
+      "language": "Static Rule language configuration (1)",
+      "softwareQuality": "Static Rule softwareQuality configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0012-0000-000000000002",
+      "ruleCode": "DSR-2026-0002",
+      "title": "Static Rule #2 — Enterprise Operations Record",
+      "language": "Static Rule language configuration (2)",
+      "softwareQuality": "Static Rule softwareQuality configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0012-0000-000000000003",
+      "ruleCode": "DSR-2026-0003",
+      "title": "Static Rule #3 — Enterprise Compliance Record",
+      "language": "Static Rule language configuration (3)",
+      "softwareQuality": "Static Rule softwareQuality configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFindingExemption": [
+    {
+      "id": "00000000-0107-0013-0000-000000000001",
+      "title": "Finding Exemption #1 — Enterprise Primary Record",
+      "findingId": "00000000-0107-0001-0000-000000000001",
+      "exemptionType": "Finding Exemption exemptionType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0013-0000-000000000002",
+      "title": "Finding Exemption #2 — Enterprise Operations Record",
+      "findingId": "00000000-0107-0001-0000-000000000002",
+      "exemptionType": "Finding Exemption exemptionType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0107-0013-0000-000000000003",
+      "title": "Finding Exemption #3 — Enterprise Compliance Record",
+      "findingId": "00000000-0107-0001-0000-000000000003",
+      "exemptionType": "Finding Exemption exemptionType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ]
+}

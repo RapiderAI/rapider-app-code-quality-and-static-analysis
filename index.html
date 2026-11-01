@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapider Code Quality &amp; Static Analysis</title>
+  <script src="https://kit.fontawesome.com/5b23df26dc.js" crossorigin="anonymous" defer></script>
+  <script src="/assets/js/rapider-components.js" defer></script>
+  <link rel="stylesheet" href="/assets/themes/rapider-tailwind-theme.css">
+  <link rel="stylesheet" href="/assets/themes/crm-expenses-design.css">
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; }
+    iframe#appFrame { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <iframe id="appFrame" src="pages/dashboard/dashboard.html"></iframe>
+  <script>
+    const routes = {
+  "dashboard": "pages/dashboard/dashboard.html",
+  "repositories": "pages/repositories/repositories.html",
+  "findings": "pages/findings/findings.html",
+  "security-hotspots": "pages/security-hotspots/security-hotspots.html",
+  "scans": "pages/scans/scans.html",
+  "compliance-debt": "pages/compliance-debt/compliance-debt.html",
+  "quality-gates": "pages/quality-gates/quality-gates.html",
+  "rule-profiles": "pages/rule-profiles/rule-profiles.html",
+  "exemptions": "pages/exemptions/exemptions.html",
+  "finding-detail": "pages/finding-detail/finding-detail.html",
+  "repo-detail": "pages/repo-detail/repo-detail.html",
+  "repo-drawer": "pages/repo-drawer/repo-drawer.html"
+};
+    function handleHash() {
+      const hash = window.location.hash.replace(/^#\/?/, '').split('?')[0];
+      const route = hash || 'dashboard';
+      const target = routes[route] || routes['dashboard'];
+      const iframe = document.getElementById('appFrame');
+      if (iframe) iframe.src = target;
+    }
+    window.addEventListener('hashchange', handleHash);
+    window.addEventListener('load', handleHash);
+  </script>
+</body>
+</html>
